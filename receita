@@ -1,0 +1,47 @@
+Programa que ensina fazer receita de bolo.
+
+def preparar_bolo():
+    print("Bem-vindo ao assistente de receita de bolo!")
+    print("Aqui estão os ingredientes que você vai precisar:")
+    
+    ingredientes = {
+        'farinha de trigo': '2 xícaras',
+        'açúcar': '1 e 1/2 xícaras',
+        'manteiga': '100g',
+        'ovos': '3 unidades',
+        'leite': '1 xícara',
+        'fermento em pó': '1 colher de sopa',
+        'essência de baunilha': '1 colher de chá'
+    }
+    
+    for ingrediente, quantidade in ingredientes.items():
+        print(f"- {ingrediente}: {quantidade}")
+    
+    print("\nAgora, vamos começar o preparo!\n")
+
+    # Passos de preparo
+    print("Passo 1: Preaqueça o forno a 180°C.")
+    input("Pressione Enter quando o forno estiver preaquecido...")
+
+    print("\nPasso 2: Em uma tigela, bata a manteiga e o açúcar até obter um creme claro e fofo.")
+    input("Pressione Enter quando terminar...")
+
+    print("\nPasso 3: Adicione os ovos, um de cada vez, e bata bem após cada adição.")
+    input("Pressione Enter quando terminar...")
+
+    print("\nPasso 4: Acrescente a farinha de trigo aos poucos, alternando com o leite, e misture até ficar homogêneo.")
+    input("Pressione Enter quando terminar...")
+
+    print("\nPasso 5: Adicione o fermento em pó e a essência de baunilha, misturando delicadamente.")
+    input("Pressione Enter quando terminar...")
+
+    print("\nPasso 6: Unte e enfarinhe uma forma de bolo e despeje a massa na forma.")
+    input("Pressione Enter quando terminar...")
+
+    print("\nPasso 7: Leve ao forno e asse por aproximadamente 35-40 minutos, ou até que o bolo esteja dourado e firme.")
+    input("Pressione Enter quando o bolo estiver pronto...")
+
+    print("\nPronto! Seu bolo está pronto para ser servido. Aproveite!")
+    
+preparar_bolo()
+    
