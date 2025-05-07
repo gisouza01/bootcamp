@@ -1,0 +1,17 @@
+Programa que da a média dos números que o usuario colocar e se o usuario colocar 0 para! 
+
+numero = int(input("Digite um número inteiro(negativo para parar): "))
+soma = 0
+cont = 0
+while numero >= 0:
+    soma = soma + numero
+    cont = cont + 1
+    print(f"soma: {soma}")
+    numero = int(input("Digite um numero inteiro (negativo para parar):"))
+if cont == 0:
+    print("Nenhum valor válido digitado")
+else:
+    media = soma / cont
+    print(f"sua média é {media}.")
+media = soma / cont
+print(f"sua média é {media}.")
